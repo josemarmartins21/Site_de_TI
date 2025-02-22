@@ -62,7 +62,7 @@ div#html > h1 {
     padding: 20px;
 }
 img {
-    width: 650px;
+    min-width: 300px;
 }
 div#css > p {
     padding: 20px;
@@ -100,11 +100,16 @@ ul > li {
 div#video {
     text-align: center;
     width: 100%;
-    padding: 20px;
 }
 aside p {
     line-height: 1.8em;
     text-indent: 30px;
+    margin-bottom: 20px;
+}
+div#video > iframe {
+    display: block;
+    width: 100%;
+    margin: auto;
 }
 footer {
     text-align: center;
