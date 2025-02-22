@@ -62,7 +62,7 @@ div#html > h1 {
     padding: 20px;
 }
 img {
-    width: 80%;
+    width: 650px;
 }
 div#css > p {
     padding: 20px;
@@ -77,18 +77,34 @@ div#css > p {
 main > p {
     padding: 50px;
 }
+article p {
+    text-indent: 30px;
+    line-height: 1.8em;
+}
 #texto {
     text-align: justify;
 }
 ul {
     padding: 20px;
+    
 }
 ul > li {
     text-align: justify;
+    list-style-type: none;
+    line-height: 2em;
 }
 #curiosidades {
     padding: 30px;
     text-align: justify;
+}
+div#video {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+aside p {
+    line-height: 1.8em;
+    text-indent: 30px;
 }
 footer {
     text-align: center;
