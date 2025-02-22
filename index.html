@@ -10,53 +10,53 @@
 <body>
     <header><h1>Tecnologia de Informação</h1>
     <p>Tudo que você Precisa saber sobre Tecnologias de Dev Web</p>
-     <nav><a href="#">Dicas de CSS & HTML</a>
-            <a href="#">Curiosidades</a>
-            <a href="#">Contactos</a>
+     <nav><a href="#html">HTML & CSS</a>
+            <a href="#curiosidades">CURIOSIDADES</a>
+            <a href="#">CONTACTOS</a>
         </nav>   
     </header>
     <main>
-        <h1>Dicas de CSS3 e HTML5</h1>
+        
         <article>
             <div id="html">
-                <h2>HTML5</h2>
-                   <picture>
-                    <source media="(max-width: 600px)" srcset="imagens/html-pq.png">
-                    <img src="imagens/html5.jpg" alt="html-imagem">
-                   </picture>
-               
-                    <p>
+                <h1>Tudo sobre CSS3 e HTML5</h1>
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="imagens/html-pq.png">
+                        <img src="imagens/html5-gd.jpg" alt="html-imagem" id="html-imagem">
+                       </picture>
+                       <h1>HTML5</h1>
+                    <p id="texto">
                         HTML5 é a versão mais recente do HTML (HyperText Markup Language), a linguagem padrão para criação
                         de páginas web. Ele trouxe várias melhorias em relação às versões anteriores, tornando o desenvolvimento web
                         mais eficiente, interativo e acessível.
-                            ### **Principais Recursos do HTML5**
+                        Principais Recursos do HTML5
                         
                             
                             
                                 <ul>
-                                    <li>
-                                        ✅ **Novas Tags Semânticas** – Como , que ajudam na organização do
+                                     <li>
+                                        ✅ Novas Tags Semânticas – Como , que ajudam na organização do
                                          conteúdo e melhoram o SEO.
                                     </li>
                                     <li>
-                                        ✅ **Áudio e Vídeo Nativos** – Elementos permitem inserir mídias sem necessidade
+                                        ✅ Áudio e Vídeo Nativos – Elementos permitem inserir mídias sem necessidade
                                         de plugins externos como Flash.
                                     </li>
                                     <li>
-                                        ✅ **Canvas e SVG** – Permitem criar gráficos dinâmicos, animações e interações sem precisar
+                                        ✅ Canvas e SVG – Permitem criar gráficos dinâmicos, animações e interações sem precisar
                                         de bibliotecas externas.
                                     </li>
                                     <li>
-                                        ✅ **Formulários Melhorados** – Novos tipos de input (`date`, `email`, `number`, `range`) e atributos como
+                                        ✅ Formulários Melhorados – Novos tipos de input (`date`, `email`, `number`, `range`) e atributos como
                                         `placeholder` e `required` facilitam a validação.
                                     </li>
                                     <li>
-                                        ✅ **Armazenamento Local** – APIs como `localStorage` e `sessionStorage` possibilitam armazenar
+                                        ✅ Armazenamento Local – APIs como `localStorage` e `sessionStorage` possibilitam armazenar
                                          dados no navegador sem precisar de cookies.
                                     </li>
-                                    <li>✅ **Geolocalização** – Permite acessar a localização do usuário com a API de Geolocation.</li>
+                                    <li>✅ Geolocalização – Permite acessar a localização do usuário com a API de Geolocation.</li>
                                     <li>
-                                        ✅ **APIs para Aplicações Web** – Suporte para WebSockets, Web Workers e Offline Applications para
+                                        ✅ APIs para Aplicações Web– Suporte para WebSockets, Web Workers e Offline Applications para
                                         apps mais rápidos e interativos.
                                         O HTML5 ainda é amplamente suportado nos navegadores modernos e continua evoluindo.
                                     </li>
@@ -67,11 +67,42 @@
                 
             </div>
             <div id="css">
-                <h2>CSS3</h2>
                 <img src="imagens/css.png" alt="css-imagem">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, sed modi! Blanditiis laborum harum accusamus veniam doloremque rerum natus eaque illo totam accusantium. Repellendus pariatur quia quibusdam velit dolorum esse?</p>
+                <h2>CSS3</h2>
+                <p>Imagina que o HTML é a estrutura de uma casa — as paredes, portas e janelas. Mas, sem pintura, móveis e decoração, essa casa ficaria sem graça, certo?   
+
+                    O CSS é como a decoração dessa casa! Ele define as cores das paredes, o estilo dos móveis, o tamanho das janelas e até onde cada coisa deve ficar.   
+                    
+                    Por exemplo:  
+                    - Se o HTML cria um botão, o CSS pode deixá-lo azul, redondo e com um efeito de brilho quando alguém passa o mouse por cima.  
+                    - Se o HTML coloca um texto numa página, o CSS pode mudar a cor, o tamanho e até o tipo da letra.  
+                    
+                    Resumindo: o CSS é o que faz os sites ficarem bonitos e organizados. Sem ele, todas as páginas seriam apenas textos e imagens empilhadas, sem estilo nenhum.
+                </p>
             </div>
-            
+            <aside id="curiosidades">
+                <h2>Curiosidades sobre o HTML e CSS</h2>
+                <p>
+                    Aqui estão algumas curiosidades sobre
+                    HTML e CSS:
+                    
+                    HTML não é uma linguagem de programação Ele é uma linguagem de marcação, usada para estruturar o conteúdo da web.
+                    
+                    O primeiro site do mundo ainda está online Criado por Tim Berners-Lee em 1991, pode ser acessado em <a href="https://info.cern.ch/" target="_blank">cern</a>.
+                    
+                    O CSS surgiu para separar estilo do conteúdo**  Antes do CSS, os sites eram estilizados diretamente no HTML com tags como `font´, `center` e `bgcolor`.
+                    
+                    O HTML5 removeu algumas tags antigas Tags como `font` e `center` foram descontinuadas porque o CSS faz esse trabalho melhor.
+                    
+                    Você pode criar animações só com CSS Usando `@keyframes`, transições e transformações, dá para criar animações sem precisar de JavaScript.
+                    
+                    O primeiro navegador da história foi feito pelo criador do HTML  Chamava-se WorldWideWeb (depois renomeado para Nexus) e foi criado por Tim Berners-Lee.
+                    
+                    O CSS tem uma propriedade chamada "orphans" e "widows" Elas servem para evitar que linhas de texto fiquem separadas de maneira estranha em uma página impressa.
+                    
+                    Os navegadores interpretam o CSS de maneiras diferentes Isso explica por que um site pode parecer diferente no Chrome, Firefox ou Edge.
+                </p>
+                </aside>
         </article>
     </main>
     <footer><p>&copy;Todos os direitos reservados a Josimar Martins</p></footer>
